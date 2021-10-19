@@ -1,6 +1,7 @@
 package _01_singleResp.ok.src;
 
 public class CocheDB {
+	
 	void guardarCocheDB(Coche coche) {
 	}
 
