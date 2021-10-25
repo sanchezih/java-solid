@@ -5,6 +5,12 @@ package _01_singleResp.nok.src;
  * realizar operaciones sobre la BBDD, por lo que la clase ya tiene mas de una
  * responsabilidad.
  * 
+ * Suponiendo que debamos realizar cambios en los metodos que realizan las
+ * operaciones a la BBDD, ademas de estos cambios, probablemente tendriamos que
+ * tocar los nombres o tipos de las propiedades, metodos, etc, cosa que no
+ * parece muy eficiente porque solo estamos modificando cosas que tienen que ver
+ * con la BBDD
+ * 
  * @author ihsanch
  *
  */

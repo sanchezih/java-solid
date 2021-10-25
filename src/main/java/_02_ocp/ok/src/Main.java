@@ -1,16 +1,16 @@
 package _02_ocp.ok.src;
 
 /**
- * Cada coche extiende la clase abstracta Coche e implementa el método abstracto
+ * Cada coche extiende la clase abstracta Coche e implementa el metodo abstracto
  * precioMedioCoche().
  * 
- * Así, cada coche tiene su propia implementación del método precioMedioCoche(),
- * por lo que el método imprimirPrecioMedioCoche() itera el array de coches y
- * solo llama al método precioMedioCoche().
+ * Asi, cada coche tiene su propia implementacion del metodo precioMedioCoche(),
+ * por lo que el metodo imprimirPrecioMedioCoche() itera el array de coches y
+ * solo llama al metodo precioMedioCoche().
  * 
- * Ahora, si añadimos un nuevo coche, precioMedioCoche() no tendrá que ser
- * modificado. Solo tendremos que añadir el nuevo coche al array, cumpliendo así
- * el principio abierto/cerrado.
+ * Ahora, si aniadimos un nuevo coche, precioMedioCoche() no tendra que ser
+ * modificado. Solo tendremos que aniadir el nuevo coche al array, cumpliendo
+ * asi el principio abierto/cerrado.
  * 
  * @author ihsanch
  *
