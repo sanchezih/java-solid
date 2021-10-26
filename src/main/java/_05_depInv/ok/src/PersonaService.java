@@ -1,11 +1,10 @@
 package _05_depInv.ok.src;
 
-public class ServicePerson {
-	
-	
+public class PersonaService {
+
 	private IPersistence persistence;
-	
-	public ServicePerson(IPersistence persistence) {
+
+	public PersonaService(IPersistence persistence) {
 		this.persistence = persistence;
 	}
 
