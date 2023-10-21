@@ -26,5 +26,6 @@ class Coche {
 	}
 
 	void guardarCocheDB(Coche coche) {
+		System.out.println("Guardando coche en DB...");
 	}
 }

@@ -8,8 +8,7 @@ package _01_single_responsibility_principle.ok.src;
  * @author ihsanch
  *
  */
-public class CocheDB {
-
+class CocheDB {
 	void guardarCocheDB(Coche coche) {
 	}
 

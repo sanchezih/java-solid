@@ -10,17 +10,26 @@ package _02_open_closed_principle.nok.src;
  * a�adir nueva logica al metodo precioMedioCoche().
  * 
  * Esto es un ejemplo sencillo, pero imagina que tu aplicacion crece y crece...
- * �cuantas modificaciones tendriamos que hacer?
+ * cuantas modificaciones tendriamos que hacer?
  * 
  * @author ihsanch
  *
  */
 public class Main {
+
 	public static void main(String[] args) {
-		Coche[] arrayCoches = { new Coche("Renault"), new Coche("Audi"), new Coche("Mercedes") };
+		Coche[] arrayCoches = { //
+				new Coche("Renault"), //
+				new Coche("Audi"), //
+				new Coche("Mercedes") };
+
 		imprimirPrecioMedioCoche(arrayCoches);
 	}
 
+	/**
+	 * 
+	 * @param arrayCoches
+	 */
 	public static void imprimirPrecioMedioCoche(Coche[] arrayCoches) {
 		for (Coche coche : arrayCoches) {
 			if (coche.marca.equals("Renault")) {

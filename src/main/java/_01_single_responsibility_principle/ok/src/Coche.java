@@ -1,6 +1,6 @@
 package _01_single_responsibility_principle.ok.src;
 
-public class Coche {
+class Coche {
 	String marca;
 
 	Coche(String marca) {

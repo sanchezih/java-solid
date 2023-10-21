@@ -18,7 +18,10 @@ package _02_open_closed_principle.ok.src;
 public class Main {
 	public static void main(String[] args) {
 
-		Coche[] arrayCoches = { new Renault(), new Audi(), new Mercedes() };
+		Coche[] arrayCoches = { //
+				new Renault(), //
+				new Audi(), //
+				new Mercedes() };
 
 		imprimirPrecioMedioCoche(arrayCoches);
 	}

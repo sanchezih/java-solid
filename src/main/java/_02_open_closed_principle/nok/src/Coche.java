@@ -1,6 +1,6 @@
 package _02_open_closed_principle.nok.src;
 
-public class Coche {
+class Coche {
 	String marca;
 
 	Coche(String marca) {
